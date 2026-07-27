@@ -4,7 +4,7 @@ import SealBadge from "../ui/SealBadge";
 
 export default function Footer() {
   return (
-    <footer className="bg-ink text-paper pt-16 pb-8 border-t border-brass/20">
+    <footer className="bg-ink text-paper pt-16 pb-8 border-t border-silver/20">
       <div className="max-w-6xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
         {/* Brand & Seal */}
         <div className="md:col-span-1 flex flex-col items-start gap-6">
@@ -12,7 +12,7 @@ export default function Footer() {
             <span className="font-display text-2xl font-medium text-paper">
               Dr. Eduardo
             </span>
-            <span className="font-sans text-xs text-brass uppercase tracking-widest">
+            <span className="font-sans text-xs text-silver uppercase tracking-widest">
               Advocacia
             </span>
           </div>
@@ -21,30 +21,30 @@ export default function Footer() {
 
         {/* Links */}
         <div className="md:col-span-1 flex flex-col gap-4">
-          <h3 className="font-display text-lg text-brass">Navegação</h3>
+          <h3 className="font-display text-lg text-silver">Navegação</h3>
           <ul className="flex flex-col gap-3">
             <li>
-              <Link href="/" className="text-paper/80 hover:text-paper hover:underline decoration-brass underline-offset-4 transition-all">
+              <Link href="/" className="text-paper/80 hover:text-paper hover:underline decoration-silver underline-offset-4 transition-all">
                 Início
               </Link>
             </li>
             <li>
-              <Link href="/sobre" className="text-paper/80 hover:text-paper hover:underline decoration-brass underline-offset-4 transition-all">
+              <Link href="/sobre" className="text-paper/80 hover:text-paper hover:underline decoration-silver underline-offset-4 transition-all">
                 Sobre o Advogado
               </Link>
             </li>
             <li>
-              <Link href="/areas-de-atuacao" className="text-paper/80 hover:text-paper hover:underline decoration-brass underline-offset-4 transition-all">
+              <Link href="/areas-de-atuacao" className="text-paper/80 hover:text-paper hover:underline decoration-silver underline-offset-4 transition-all">
                 Áreas de Atuação
               </Link>
             </li>
             <li>
-              <Link href="/equipe" className="text-paper/80 hover:text-paper hover:underline decoration-brass underline-offset-4 transition-all">
+              <Link href="/equipe" className="text-paper/80 hover:text-paper hover:underline decoration-silver underline-offset-4 transition-all">
                 Nossa Equipe
               </Link>
             </li>
             <li>
-              <Link href="/contato" className="text-paper/80 hover:text-paper hover:underline decoration-brass underline-offset-4 transition-all">
+              <Link href="/contato" className="text-paper/80 hover:text-paper hover:underline decoration-silver underline-offset-4 transition-all">
                 Contato
               </Link>
             </li>
@@ -53,14 +53,14 @@ export default function Footer() {
 
         {/* Contact Info */}
         <div className="md:col-span-1 flex flex-col gap-4">
-          <h3 className="font-display text-lg text-brass">Contato</h3>
+          <h3 className="font-display text-lg text-silver">Contato</h3>
           <ul className="flex flex-col gap-4">
             <li className="flex items-start gap-3 text-paper/80">
-              <Phone className="w-5 h-5 text-brass shrink-0 mt-0.5" />
+              <Phone className="w-5 h-5 text-silver shrink-0 mt-0.5" />
               <span>(43) 99999-9999</span>
             </li>
             <li className="flex items-start gap-3 text-paper/80">
-              <Mail className="w-5 h-5 text-brass shrink-0 mt-0.5" />
+              <Mail className="w-5 h-5 text-silver shrink-0 mt-0.5" />
               <span>contato@dreduardo.com.br</span>
             </li>
           </ul>
@@ -68,14 +68,14 @@ export default function Footer() {
 
         {/* Address */}
         <div className="md:col-span-1 flex flex-col gap-4">
-          <h3 className="font-display text-lg text-brass">Endereço</h3>
+          <h3 className="font-display text-lg text-silver">Endereço</h3>
           <ul className="flex flex-col gap-4">
             <li className="flex items-start gap-3 text-paper/80">
-              <MapPin className="w-5 h-5 text-brass shrink-0 mt-0.5" />
+              <MapPin className="w-5 h-5 text-silver shrink-0 mt-0.5" />
               <span>Rua Exemplo, 123, Sala 45<br/>Centro, Londrina - PR</span>
             </li>
             <li className="flex items-start gap-3 text-paper/80">
-              <Clock className="w-5 h-5 text-brass shrink-0 mt-0.5" />
+              <Clock className="w-5 h-5 text-silver shrink-0 mt-0.5" />
               <span>Segunda a Sexta<br/>09h às 18h</span>
             </li>
           </ul>

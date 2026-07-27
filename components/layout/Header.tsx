@@ -21,7 +21,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
           <div className="flex flex-col">
-            <span className="font-display text-xl font-medium text-ink group-hover:text-brass transition-colors">
+            <span className="font-display text-xl font-medium text-ink group-hover:text-silver transition-colors">
               Dr. Eduardo
             </span>
             <span className="font-sans text-xs text-graphite uppercase tracking-widest">
@@ -36,7 +36,7 @@ export default function Header() {
             <Link
               key={link.name}
               href={link.href}
-              className="text-sm font-medium text-graphite hover:text-ink transition-colors relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-brass hover:after:w-full after:transition-all after:duration-300"
+              className="text-sm font-medium text-graphite hover:text-ink transition-colors relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-silver hover:after:w-full after:transition-all after:duration-300"
             >
               {link.name}
             </Link>

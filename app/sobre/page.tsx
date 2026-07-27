@@ -14,7 +14,7 @@ export default function Sobre() {
         <div className="flex flex-col md:flex-row gap-10 items-start">
           <div className="w-full md:w-1/3 shrink-0">
             {/* Placeholder Image */}
-            <div className="w-full aspect-[3/4] bg-line/30 rounded-lg overflow-hidden border border-brass/20 flex items-center justify-center">
+            <div className="w-full aspect-[3/4] bg-line/30 rounded-lg overflow-hidden border border-silver/20 flex items-center justify-center">
               <span className="font-mono text-sm text-graphite/40">FOTO DO ADVOGADO</span>
             </div>
           </div>
@@ -23,7 +23,7 @@ export default function Sobre() {
               <h1 className="font-display text-4xl md:text-5xl font-medium text-ink mb-2">
                 Eduardo Santos
               </h1>
-              <p className="font-mono text-sm text-brass uppercase tracking-widest font-bold">
+              <p className="font-mono text-sm text-silver uppercase tracking-widest font-bold">
                 Advogado Sênior
               </p>
             </div>
@@ -47,7 +47,7 @@ export default function Sobre() {
 
       {/* Values Section */}
       <section className="max-w-5xl mx-auto px-6 md:px-12 w-full mt-24">
-        <h2 className="font-display text-3xl text-ink mb-12 text-center border-b border-brass/30 pb-4 inline-block mx-auto">
+        <h2 className="font-display text-3xl text-ink mb-12 text-center border-b border-silver/30 pb-4 inline-block mx-auto">
           Nossos Princípios
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -57,7 +57,7 @@ export default function Sobre() {
             { title: "Atendimento Direto", text: "Proximidade com o cliente, garantindo que o seu caso seja tratado com a devida exclusividade e atenção." },
           ].map((value, i) => (
             <div key={i} className="flex flex-col gap-3 p-6 bg-paper-alt rounded-lg border border-line/50">
-              <h3 className="font-display text-xl text-brass">{value.title}</h3>
+              <h3 className="font-display text-xl text-silver">{value.title}</h3>
               <p className="font-sans text-graphite/80 leading-relaxed text-sm">{value.text}</p>
             </div>
           ))}

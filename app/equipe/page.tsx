@@ -34,8 +34,8 @@ export default function Equipe() {
               </div>
               <div className="p-6 flex flex-col items-center text-center gap-2">
                 <h3 className="font-display text-xl text-ink">{member.name}</h3>
-                <span className="font-mono text-xs text-brass uppercase tracking-widest">{member.role}</span>
-                <div className="w-8 h-px bg-brass/30 my-2"></div>
+                <span className="font-mono text-xs text-silver uppercase tracking-widest">{member.role}</span>
+                <div className="w-8 h-px bg-silver/30 my-2"></div>
                 <p className="font-sans text-sm text-graphite/70">Área: {member.area}</p>
                 <p className="font-mono text-xs text-graphite/50 mt-1">{member.oab}</p>
               </div>

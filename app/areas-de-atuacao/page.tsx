@@ -53,13 +53,13 @@ export default function AreasDeAtuacao() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.2 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-paper-alt p-8 border border-line rounded-xl hover:border-brass/50 hover:shadow-lg hover:shadow-brass/5 transition-all group flex flex-col gap-4"
+                className="bg-paper-alt p-8 border border-line rounded-xl hover:border-silver/50 hover:shadow-lg hover:shadow-silver/5 transition-all group flex flex-col gap-4"
               >
-                <div className="w-12 h-12 rounded-full bg-brass/10 flex items-center justify-center text-brass group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-full bg-silver/10 flex items-center justify-center text-silver group-hover:scale-110 transition-transform">
                   <Icon className="w-6 h-6" />
                 </div>
                 <h2 className="font-display text-2xl text-ink">{area.title}</h2>
-                <div className="w-12 h-px bg-brass/40"></div>
+                <div className="w-12 h-px bg-silver/40"></div>
                 <p className="font-sans text-graphite/80 leading-relaxed">
                   {area.description}
                 </p>

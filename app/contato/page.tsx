@@ -24,8 +24,8 @@ export default function Contato() {
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-6">
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full bg-brass/10 flex items-center justify-center shrink-0">
-                  <Phone className="w-5 h-5 text-brass" />
+                <div className="w-10 h-10 rounded-full bg-silver/10 flex items-center justify-center shrink-0">
+                  <Phone className="w-5 h-5 text-silver" />
                 </div>
                 <div>
                   <h3 className="font-sans font-bold text-ink uppercase tracking-wider text-sm mb-1">Telefone / WhatsApp</h3>
@@ -34,8 +34,8 @@ export default function Contato() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full bg-brass/10 flex items-center justify-center shrink-0">
-                  <Mail className="w-5 h-5 text-brass" />
+                <div className="w-10 h-10 rounded-full bg-silver/10 flex items-center justify-center shrink-0">
+                  <Mail className="w-5 h-5 text-silver" />
                 </div>
                 <div>
                   <h3 className="font-sans font-bold text-ink uppercase tracking-wider text-sm mb-1">E-mail</h3>
@@ -44,8 +44,8 @@ export default function Contato() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full bg-brass/10 flex items-center justify-center shrink-0">
-                  <MapPin className="w-5 h-5 text-brass" />
+                <div className="w-10 h-10 rounded-full bg-silver/10 flex items-center justify-center shrink-0">
+                  <MapPin className="w-5 h-5 text-silver" />
                 </div>
                 <div>
                   <h3 className="font-sans font-bold text-ink uppercase tracking-wider text-sm mb-1">Endereço</h3>
@@ -54,8 +54,8 @@ export default function Contato() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-full bg-brass/10 flex items-center justify-center shrink-0">
-                  <Clock className="w-5 h-5 text-brass" />
+                <div className="w-10 h-10 rounded-full bg-silver/10 flex items-center justify-center shrink-0">
+                  <Clock className="w-5 h-5 text-silver" />
                 </div>
                 <div>
                   <h3 className="font-sans font-bold text-ink uppercase tracking-wider text-sm mb-1">Horário de Atendimento</h3>
@@ -76,21 +76,21 @@ export default function Contato() {
             <form className="flex flex-col gap-5">
               <div className="flex flex-col gap-2">
                 <label htmlFor="name" className="font-sans text-sm font-medium text-graphite">Nome Completo</label>
-                <input type="text" id="name" className="w-full px-4 py-3 bg-paper border border-line rounded-lg focus:outline-none focus:border-brass/50 focus:ring-1 focus:ring-brass/50 transition-all" placeholder="Seu nome..." />
+                <input type="text" id="name" className="w-full px-4 py-3 bg-paper border border-line rounded-lg focus:outline-none focus:border-silver/50 focus:ring-1 focus:ring-silver/50 transition-all" placeholder="Seu nome..." />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div className="flex flex-col gap-2">
                   <label htmlFor="phone" className="font-sans text-sm font-medium text-graphite">Telefone / WhatsApp</label>
-                  <input type="tel" id="phone" className="w-full px-4 py-3 bg-paper border border-line rounded-lg focus:outline-none focus:border-brass/50 focus:ring-1 focus:ring-brass/50 transition-all" placeholder="(43) 90000-0000" />
+                  <input type="tel" id="phone" className="w-full px-4 py-3 bg-paper border border-line rounded-lg focus:outline-none focus:border-silver/50 focus:ring-1 focus:ring-silver/50 transition-all" placeholder="(43) 90000-0000" />
                 </div>
                 <div className="flex flex-col gap-2">
                   <label htmlFor="email" className="font-sans text-sm font-medium text-graphite">E-mail</label>
-                  <input type="email" id="email" className="w-full px-4 py-3 bg-paper border border-line rounded-lg focus:outline-none focus:border-brass/50 focus:ring-1 focus:ring-brass/50 transition-all" placeholder="voce@email.com" />
+                  <input type="email" id="email" className="w-full px-4 py-3 bg-paper border border-line rounded-lg focus:outline-none focus:border-silver/50 focus:ring-1 focus:ring-silver/50 transition-all" placeholder="voce@email.com" />
                 </div>
               </div>
               <div className="flex flex-col gap-2">
                 <label htmlFor="message" className="font-sans text-sm font-medium text-graphite">Como podemos ajudar?</label>
-                <textarea id="message" rows={4} className="w-full px-4 py-3 bg-paper border border-line rounded-lg focus:outline-none focus:border-brass/50 focus:ring-1 focus:ring-brass/50 transition-all resize-none" placeholder="Descreva brevemente o seu caso..."></textarea>
+                <textarea id="message" rows={4} className="w-full px-4 py-3 bg-paper border border-line rounded-lg focus:outline-none focus:border-silver/50 focus:ring-1 focus:ring-silver/50 transition-all resize-none" placeholder="Descreva brevemente o seu caso..."></textarea>
               </div>
               <button type="button" className="w-full bg-ink text-paper py-4 rounded-lg font-medium mt-2 hover:bg-ink-700 transition-colors">
                 Enviar Mensagem
